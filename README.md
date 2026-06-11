@@ -39,9 +39,3 @@
 
 - 初回起動時、exe と同じフォルダに `bookmarks.html` などが作成されます。
 - Windows の環境（セキュリティ設定等）により、警告が表示される場合がありますが、本ソフトはオープンソースであり、中身は GitHub 上で公開・確認可能です。
-
-
-```powershell
-cd src-tauri
-cargo build --release
-# 生成物: src-tauri\target\release\bookmark-manager.exe
